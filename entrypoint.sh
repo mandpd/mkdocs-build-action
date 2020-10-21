@@ -18,7 +18,7 @@ chmod -R a+w /github/workspace
 # pip install -r requirements.txt
 # pip install mkdocs-minify-plugin>=0.2
 
-mkdocs build
+mkdocs build --site-dir /site
 
 ####################################################
 # Build completed
