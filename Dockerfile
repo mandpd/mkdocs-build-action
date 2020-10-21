@@ -1,6 +1,7 @@
 FROM python:3.8-alpine
 
 RUN apk add build-base
+RUN apk add git
 
 RUN pip install --quiet --no-cache-dir mkdocs
 RUN pip install --quiet --no-cache-dir mkdocs-add-number-plugin
