@@ -1,0 +1,9 @@
+name: "mkdocs-build-action"
+description: "Github action to build an MkDocs site"
+author: markjsmith
+runs:
+  using: docker
+  image: Dockerfile
+branding:
+  icon: arrow-up-circle
+  color: blue
