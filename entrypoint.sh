@@ -1,7 +1,7 @@
 #!/bin/sh
 
 set -x # verbose mode
-set -e # stop executing after error
+# set -e # stop executing after error
 
 echo "Starting mkdocs build"
 
@@ -9,12 +9,11 @@ echo "Starting mkdocs build"
 # Build the Mkdocs site
 ####################################################
 
-mkdocs build --site-dir /site
+mkdocs build
+pwd
 
 ####################################################
 # Build completed
 ####################################################
 
 echo "Completed mkdocs build"
-
-pwd
