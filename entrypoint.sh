@@ -11,7 +11,7 @@ echo "Starting mkdocs build"
 
 mkdocs build
 pwd
-
+ls -l /github/workspace
 ####################################################
 # Build completed
 ####################################################
