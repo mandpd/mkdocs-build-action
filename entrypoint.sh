@@ -16,3 +16,5 @@ mkdocs build --site-dir /site
 ####################################################
 
 echo "Completed mkdocs build"
+
+pwd
